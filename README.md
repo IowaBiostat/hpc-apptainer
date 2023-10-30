@@ -9,6 +9,8 @@ This is an example workflow to:
 2. Convert the podman container to a .sif file with apptainer (compatible with HPC)
 3. Run the apptainer container
 
+The file produced by these scripts is also available for direct download [here](https://iowa-my.sharepoint.com/:u:/g/personal/gown_uiowa_edu/EfEE_LzBwT1Hizcqc3OSotoBrD01geyodN_iUhrPnEZWwA?e=hf8bwe) for University students. 
+
 Setup
 =============
 
