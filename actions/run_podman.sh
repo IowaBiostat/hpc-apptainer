@@ -1,2 +1,2 @@
 #!/bin/bash
-podman run -it example
+podman run -it inla

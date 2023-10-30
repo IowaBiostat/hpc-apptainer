@@ -1,2 +1,2 @@
 #!/bin/bash
-apptainer shell example_tar.sif
+apptainer shell inla.sif

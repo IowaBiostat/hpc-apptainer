@@ -1,2 +1,2 @@
 #!/bin/bash
-podman build -t example ../
+podman build -t inla ../
