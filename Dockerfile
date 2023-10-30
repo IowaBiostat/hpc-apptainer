@@ -30,9 +30,17 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD5
  apt-get install -y r-base-dev && \
  apt-get install build-essential
 
+RUN apt-get install r-cran-devtools -y
+
+# Install INLA (binary version)
+RUN apt-get install r-cran-doparallel r-cran-lifecycle r-cran-rlang r-cran-withr r-cran-gsl -y
+
 # R setup
 COPY ./scripts/setup.R /root/setup.R
 RUN cd /root && R CMD BATCH setup.R
+
+
+
 
 # Command (default)
 CMD /bin/bash
